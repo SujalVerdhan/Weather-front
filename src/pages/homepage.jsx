@@ -25,7 +25,7 @@ function Homepage(){
 
 const handle=async()=>{
   console.log(city)
-const res=await fetch("http://localhost:5000/value",{
+const res=await fetch("https://weather-back-9083.onrender.com/value",{
   method:"POST",
   headers:{
     'Content-Type':"application/json"
